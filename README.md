@@ -8,7 +8,8 @@ This code is used to create a contianer that uses pyodbc that will allow you to 
 note on the connection string: The image contains the ODBC Driver 17 and must be included in the string for the connection to work.  You may need username@serverFQDN when logging into Azure hosted SQL.
 
 # YAML
-```apiVersion: v1
+```
+apiVersion: v1
 kind: Pod
 metadata:
   name: dbtester
