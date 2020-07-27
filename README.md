@@ -22,4 +22,5 @@ spec:
     image: benparker/pydbtester:latest
     imagePullPolicy: Always
     command: ["python3"]
-    args: ["-u", "dbtester.py", "DRIVER={ODBC Driver 17 for SQL Server};SERVER=<serverFQDN>;DATABASE=<database>;UID=<username>;PWD=<password>", "<table>", "<#ofRows>"]```
+    args: ["-u", "dbtester.py", "DRIVER={ODBC Driver 17 for SQL Server};SERVER=<serverFQDN>;DATABASE=<database>;UID=<username>;PWD=<password>", "<table>", "<#ofRows>"]
+    ```
